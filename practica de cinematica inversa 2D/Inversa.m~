@@ -1,0 +1,28 @@
+function [] = Inversa()
+
+#Meter parametros por pantalla
+x = input("Introduzca x");
+y = input("Introduzca y");
+l1 = input("Introduzca l1");
+l2 = input("Introduzca l2");
+
+#Calculo de las titas
+
+printf('La segunda tita es : %4.3f \n');
+
+tita2 = acos(x^2+y^2-l1^2+l2^2;/2*l1*l2)
+
+epsilon = atan(y/x);
+
+#c = l2*sin(tita2);
+#d = l2*cos(tita2);
+#alpha = atan(c/l1+d);
+
+printf('La primera tita es : %4.3f \n');
+#tita1 = epsilon - alpha
+
+
+#Ver si está bien mediante la cinematica directa
+ 
+ #CD2(tita1,tita2)
+ 
